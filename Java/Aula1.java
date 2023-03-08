@@ -1,12 +1,29 @@
-import entities.Animais;
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+//package Aula1;
 
-public class Aula1 
-{
-        public static void main(String[] args) throws Exception 
+import entities.Aquatico;
+import entities.Mamifero;
+/**
+ *
+ * @author lab4f
+ */
+public class Aula1 {
+    public Aula1(){
+    
+}
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) 
     {
-        //System.out.println("Hello, Marques!");
-        Animais testeGustavo = new Animais(); // Instanciando a Classe()
-        String A = testeGustavo.ola(); // Variavel recebendo a classe testsGustavo
-        System.out.println(A); // Print 
+        System.out.println("Os animais Mamiferos: "+ Mamifero.caraAnimal1 + Mamifero.caraAnimal2 + Mamifero.caraMamiferos1 + Mamifero.caraMamiferos2);
+        System.out.println("Os animais Aquaticos: "+ Aquatico.caraAnimal1 + Aquatico.caraAnimal2 + Aquatico.caraAquatico1 + Aquatico.caraAquatico2);
+
+
+        // TODO code application logic here
     }
 }
