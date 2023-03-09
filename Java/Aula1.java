@@ -9,8 +9,10 @@ import entities.Mamifero;
  */
 public class Aula1 
 {
-    public Aula1()
-{}
+    public Aula1() // Metodo Construtor
+{
+
+}
 
     /**
      * @param args the command line arguments
