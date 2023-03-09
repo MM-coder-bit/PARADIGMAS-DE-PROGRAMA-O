@@ -1,20 +1,16 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-//package Aula1;
+// package Aula1;
 
+// Importando as entidades
 import entities.Aquatico;
 import entities.Mamifero;
 /**
  *
- * @author lab4f
+ * @author Mateus Marques
  */
 public class Aula1 
 {
     public Aula1()
-{    
-}
+{}
 
     /**
      * @param args the command line arguments
