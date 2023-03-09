@@ -10,9 +10,10 @@ import entities.Mamifero;
  *
  * @author lab4f
  */
-public class Aula1 {
-    public Aula1(){
-    
+public class Aula1 
+{
+    public Aula1()
+{    
 }
 
     /**
